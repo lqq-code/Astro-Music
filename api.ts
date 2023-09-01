@@ -8,7 +8,7 @@ export interface Music {
 
 
 function getOrigin(request: Request): string {
-	return new URL(request.url).origin.replace('localhost', '127.0.0.1');
+	return new URL(request.url).origin.replace('localhost', 'localhost');
 }
 
 async function get<T>(
