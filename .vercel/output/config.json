@@ -20,16 +20,16 @@
 			"dest": "index.astro"
 		},
 		{
-			"src": "^\\/music\\/([^/]+?)\\/?$",
-			"dest": "_id_.astro"
-		},
-		{
 			"src": "^\\/api\\/musics\\/([^/]+?)$",
 			"dest": "_id_.astro"
 		},
 		{
 			"src": "^\\/api\\/musics$",
 			"dest": "musics.astro"
+		},
+		{
+			"src": "^\\/([^/]+?)\\/?$",
+			"dest": "_id_.astro"
 		}
 	]
 }
