@@ -1,0 +1,44 @@
+a {
+	text-decoration: none;
+	color: unset;
+}
+.music {
+	
+}
+.music-message {
+	text-align: center;
+}
+ul {
+	list-style: none;
+	padding: 0;
+	margin-top: calc(var(--gap));
+	display: grid;
+	gap: 20px;
+	grid-template-columns: 4fr 4fr 4fr 4fr 4fr;
+	transition: 0.2s ease;
+}
+li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+	background: #202521;
+	padding: 23px;
+	transition: 0.3s ease;
+}
+
+ul :hover{
+	background: #222d24;
+	transition: 0.3s ease;
+	cursor: pointer;
+}
+.musicTitle{
+	color: #FFF;
+	font-size: 20px;
+	font-weight: 700;
+	padding-block-end: 4px;
+	margin: 15px 0 5px;
+}
+.musicDes{
+	width: 230px;
+	font-size: 16px;
+	color: #6a6a6a;
+}

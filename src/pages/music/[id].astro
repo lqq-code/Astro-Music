@@ -1,0 +1,73 @@
+---
+import { ViewTransitions } from 'astro:transitions';
+import { fade } from 'astro:transitions';
+
+
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<ViewTransitions />
+		<style>
+			html,
+			body {
+				font-family: system-ui;
+				margin: 0;
+			}
+			body {
+				padding: 2rem;
+				background-color: #141613;
+			}
+			.music-contanier{
+				text-align: center;
+			}
+			h1{
+				color: #fff;
+				font-size: 36px;
+			}
+			.nav{
+				align-items: center;
+				display: grid;
+				padding-bottom: 2rem;
+				justify-content: center;
+				grid-auto-flow: column;
+			}
+			.back-btn{
+				background-color: #fff;
+				border: 1px solid #fff;
+				border-radius: 2rem;
+				box-shadow: #00000005 0 1px 3px;
+				box-sizing: border-box;
+				color: #000000d9;
+				cursor: pointer;
+				display: inline-flex;
+				font-weight: 400;
+				font-size: 16px;
+				justify-content: center;
+				line-height: 1.24;
+				padding: calc(0.875rem - 1px) calc(1.5rem - 1px);
+				text-decoration: none;
+				transition: box-shadow .15s;
+			}
+			.back-btn:hover {
+				box-shadow: #fff 0 0 0 2px,#008965 0 0 0 4px;
+			}
+			.bg{
+				
+			}
+		</style>
+	</head>
+	<body>
+		<main class="music-contanier" transition:animate={fade({ duration: '0.4s' })}>
+			<h1>. . . Waiting . . .</h1>
+			<nav class="nav">
+				<a class="button back-btn" href="/">Back</a>
+			</nav>
+			<img class="bg" width={1100} height={400}  src="https://res.cloudinary.com/dlkatcdmr/image/upload/v1693547137/illuminated_fwmpxw.svg" alt="" />
+		</main>
+	</body>
+</html>

@@ -1,0 +1,46 @@
+---
+import { getMusics } from '../../api';
+import MusicComponent from '../components/Music'
+import { ViewTransitions } from 'astro:transitions';
+import { fade } from 'astro:transitions';
+
+const musics = await getMusics(Astro.request);
+
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<ViewTransitions />
+		<style>
+			html,
+			body {
+				font-family: system-ui;
+				margin: 0;
+			}
+			body {
+				padding: 2rem;
+				background-color: #141613;
+			}
+			
+			.music-contanier{
+				
+			}
+			.tab-title{
+				color: #FFF;
+				font-size: 32px;
+			}
+		</style>
+	</head>
+	<body>
+		<main class="music-contanier">
+			<section transition:animate={fade({ duration: '0.4s' })}>
+				<h1 class="tab-title">OpenMusic</h1>
+				<MusicComponent musics={musics} client:visible/>
+			</section>
+		</main>
+	</body>
+</html>

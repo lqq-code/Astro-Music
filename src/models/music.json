@@ -1,0 +1,39 @@
+{
+    "musicList":[
+    {
+        "id": 1,
+        "title": "Today's Top Hits ",
+        "description": "Selena Gomez is on top of the Hottest 50!",
+        "pubDate": "Jul 15 2022",
+        "heroImage": "https://i.scdn.co/image/ab67706f0000000264c1526220b3f0a3e88cf8c0"
+    },
+    {
+        "id": 2,
+        "title": "RapCaviar",
+        "description": "New music from Gucci Mane, J. Cole and Lil Durk.",
+        "pubDate": "Jul 15 2022",
+        "heroImage": "https://i.scdn.co/image/ab67706f0000000261b43bc8c113ab93d6466509"
+    },
+    {
+        "id": 3,
+        "title": "All Out 2010s",
+        "description": "The biggest songs of the 2010s. ",
+        "pubDate": "Jul 15 2022",
+        "heroImage": "https://i.scdn.co/image/ab67706f00000002b0fe40a6e1692822f5a9d8f1"
+    },
+    {
+        "id": 4,
+        "title": "Chill Hits",
+        "description": "Kick back to the best new and recent chill hits.",
+        "pubDate": "Jul 15 2022",
+        "heroImage": "https://i.scdn.co/image/ab67706f00000002b60db5d1bcdd9c4fd1ebcffe"
+    },
+    {
+        "id": 5,
+        "title": "Viva Latino",
+        "description": "Today's top Latin hits, elevando nuestra música. Cover: Maluma",
+        "pubDate": "Jul 15 2022",
+        "heroImage": "https://i.scdn.co/image/ab67706f00000002f9bdb020583c5c79493f8583"
+    }
+]
+}
