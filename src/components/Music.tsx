@@ -10,7 +10,7 @@ export default function Music({ musics }: any){
 					{
 						musics.map((post) => (
 							<li key={post.id} >
-								<a href={`/music/${post.id}/`}>
+								<a href={`/${post.id}/`}>
 									<img width={230} height={230} src={post.heroImage} alt="" />
 									<div className="musicTitle">{post.title}</div>
 									<div className="musicDes">{post.description}</div>
