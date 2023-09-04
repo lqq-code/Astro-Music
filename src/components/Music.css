@@ -3,7 +3,10 @@ a {
 	color: unset;
 }
 .music {
-	
+	grid-gap: 24px;
+    display: grid;
+    grid-template-columns: repeat(5,minmax(0,1fr));
+    min-width: 344px;
 }
 .music-message {
 	text-align: center;
@@ -11,10 +14,10 @@ a {
 ul {
 	list-style: none;
 	padding: 0;
-	margin-top: calc(var(--gap));
+	margin-top: 24px;
 	display: grid;
 	gap: 20px;
-	grid-template-columns: 4fr 4fr 4fr 4fr 4fr;
+	grid-template-columns: 4fr 4fr 4fr 4fr ;
 	transition: 0.2s ease;
 }
 li {
@@ -38,7 +41,7 @@ ul :hover{
 	margin: 15px 0 5px;
 }
 .musicDes{
-	width: 230px;
+	width: 220px;
 	font-size: 16px;
 	color: #6a6a6a;
 }
