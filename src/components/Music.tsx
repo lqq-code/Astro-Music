@@ -31,17 +31,17 @@ export default function Music({ musics }: any) {
 		});
 	}
 	const onEnterImg = ({ currentTarget }) => {
-		gsap.to(currentTarget, { scale: 0.95, duration: 0.3 });
-		gsap.to(currentTarget.querySelector('img'), { scale: 1.2, duration: 0.3 });
-		gsap.to(currentTarget.querySelector('.musicTitle'), { scale: 1.2, duration: 0.3 });
-		gsap.to(currentTarget.querySelector('.musicDes'), { scale: 1.2, duration: 0.3 });
+		gsap.to(currentTarget, { scale: 0.8, duration: 0.5 });
+		gsap.to(currentTarget.querySelector('img'), { scale: 1.2, duration: 0.5 });
+		gsap.to(currentTarget.querySelector('.musicTitle'), { scale: 1.2, duration: 0.5 });
+		gsap.to(currentTarget.querySelector('.musicDes'), { scale: 1.2, duration: 0.5 });
 	};
 
 	const onLeaveImg = ({ currentTarget }) => {
-		gsap.to(currentTarget, { scale: 1, duration: 0.3 });
-		gsap.to(currentTarget.querySelector('img'), { scale: 1, duration: 0.3 });
-		gsap.to(currentTarget.querySelector('.musicTitle'), { scale: 1, duration: 0.3 });
-		gsap.to(currentTarget.querySelector('.musicDes'), { scale: 1, duration: 0.3 });
+		gsap.to(currentTarget, { scale: 1, duration: 0.5 });
+		gsap.to(currentTarget.querySelector('img'), { scale: 1, duration: 0.5 });
+		gsap.to(currentTarget.querySelector('.musicTitle'), { scale: 1, duration: 0.5 });
+		gsap.to(currentTarget.querySelector('.musicDes'), { scale: 1, duration: 0.5 });
 	};
 
 

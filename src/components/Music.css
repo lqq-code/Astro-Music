@@ -6,7 +6,7 @@ a {
 	
 }
 .music-item{
-    max-width: 400px;
+    width: 400px;
     overflow: hidden;
     position: relative;
     will-change: transform, opacity;
@@ -38,7 +38,7 @@ ul :hover{
 	margin: 45px 0 5px;
 }
 .musicDes{
-	width: 400;
+	width: 400px;
 	font-size: 16px;
 	color: #6a6a6a;
 }
