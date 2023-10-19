@@ -24,7 +24,7 @@ Before you begin, make sure you have the following tools and dependencies instal
 2. Change your working directory to the project folder:
 
    ```bash
-   cd Astro3.0-React-SSR
+   cd Astro-Music
    ```
 
 3. Install project dependencies:
