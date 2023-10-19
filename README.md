@@ -18,7 +18,7 @@ Before you begin, make sure you have the following tools and dependencies instal
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/lqq-code/Astro3.0-React-SSR.git
+   git clone https://github.com/lqq-code/Astro-Music.git
    ```
 
 2. Change your working directory to the project folder:
