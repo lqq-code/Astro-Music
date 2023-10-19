@@ -13,12 +13,15 @@
     "@astrojs/node": "^6.0.0",
     "@astrojs/react": "^3.0.0",
     "@astrojs/vercel": "^4.0.2",
-    "@types/react": "^18.2.21",
-    "@types/react-dom": "^18.2.7",
     "astro": "^3.0.3",
+    "gsap": "^3.12.2",
     "node": "^20.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "sharp": "^0.32.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.29",
+    "@types/react-dom": "^18.2.14"
   }
 }

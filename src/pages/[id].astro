@@ -2,7 +2,6 @@
 import { ViewTransitions } from 'astro:transitions';
 import { fade } from 'astro:transitions';
 
-
 ---
 
 <html lang="en">
@@ -62,7 +61,7 @@ import { fade } from 'astro:transitions';
 		</style>
 	</head>
 	<body>
-		<main class="music-contanier" transition:animate={fade({ duration: '0.4s' })}>
+		<main class="music-contanier" transition:animate={fade({ duration: '0.4s' })} >
 			<h1>. . . Waiting . . .</h1>
 			<nav class="nav">
 				<a class="button back-btn" href="/">Back</a>
