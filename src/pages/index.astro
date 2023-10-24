@@ -54,6 +54,7 @@ const musics = await getMusics(Astro.request);
       >
         <div class="muisc-right">
           <h1 class="tab-title">OpenMusic</h1>
+          
           <MusicComponent musics={musics} client:visible />
         </div>
       </section>

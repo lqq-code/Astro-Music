@@ -58,6 +58,16 @@ import { fade } from 'astro:transitions';
 			.bg{
 				
 			}
+			
+
+		.revealing-image {
+			view-timeline-name: --revealing-image;
+			view-timeline-axis: block;
+
+			animation: linear reveal both;
+			animation-timeline: --revealing-image;
+			animation-range: entry 25% cover 50%;
+		}
 		</style>
 	</head>
 	<body>
